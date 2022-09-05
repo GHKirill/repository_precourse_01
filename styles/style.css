@@ -1,0 +1,233 @@
+.header{
+    display: flex;
+    height: 80px;
+}
+.navigation{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.navigation-logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: #000000;
+    text-decoration: none;
+    width:50%;
+    text-align: end;
+    margin: 25px;
+}
+.navigation-logo-blue{
+    color: #2196F3;
+}
+.navigation-pages{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: 0;
+    margin: 32px;
+}
+.navigation-pages-item{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #212121; 
+    
+}
+.navigation-pages-item:hover{
+    color: #2196F3;
+}
+.navigation-contacts{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+}
+.navigation-contacts-mail{
+    text-decoration: none;
+    color: #2196F3;
+    padding-right: 25px;
+}
+.navigation-contacts-tel{
+    text-decoration: none;
+    color: #757575;
+    padding-left: 25px;
+}
+.hero{
+    height: 600px;
+    width: auto;
+    background-color: #2F303A;
+    margin-bottom: 95px;
+
+}
+.hero-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 700px;
+    padding-top: 200px;
+   margin:auto;
+   margin-bottom: 30px;
+}
+.hero-button{
+width: 215px;
+height: 50px;
+background-color: #2196F3;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 700;
+color: #FFFFFF;
+margin:20px auto;
+border-radius: 5px;
+display: block;
+margin: auto;
+}
+
+
+
+.advantages{
+    padding-top: 95px;
+}
+.advantages-list{
+    list-style: none;
+    display: flex;
+    width: 1170px;
+    margin: auto;
+    padding: 0;
+}
+.advantages-text{
+    display: none;
+}
+.advantages-list-item{
+    padding-right: 20px;
+}
+.advantages-list-item-h{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
+    text-transform: uppercase;
+}
+.advantages-list-item-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.directions{
+  width: 1170px;
+  margin: auto;  
+  margin-top: 95px;
+}
+.directions-h{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    width: 365px;
+    margin: auto;
+}
+.directions-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+}
+.directions-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.team{
+    height: 650px;
+    background-color: #F5F4FA;
+    margin-top: 95px;
+}
+.team-head{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    width: 265px;
+    margin: auto;
+    padding-top: 95px;
+}
+.team-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 1170px;
+    margin: auto; 
+    margin-top: 50px;
+}
+.team-item{
+    height: 370px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow:  2px 2px 2px rgba(117, 110, 110, 0.5);
+    display: block;
+}
+.team-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121;
+    text-align: center;
+}
+.team-function{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    text-align: center;
+}
+.footer{
+    height: 250px;
+    background-color: #2F303A;
+    margin-top: 30px;
+}
+.footer-address{
+    padding-top: 60px;
+    margin-left: 215px;
+    font-style: normal;
+}
+.footer-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;    
+    color: #2196F3;
+    text-decoration: none;
+    margin-top: 30px;
+
+}
+.footer-logo-white{
+    color: #FFFFFF;
+}
+.footer-list{
+    list-style: none;
+    padding: 0;
+}
+.footer-item{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.footer-contact{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6); 
+    text-decoration: none;
+}
